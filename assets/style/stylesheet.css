@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 0px 0px 5px #777;
 }
 
 body {
+    padding-bottom: 30px;
     font-family: Helvetica, Arial, sans-serif;
     color: #FFF;
     min-height: 100vh;
@@ -14,13 +16,8 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-}
-
-.middle {
-    margin-bottom: 100px;
-    text-shadow: 0px 0px 5px #777;
 }
 
 .middle h1 {
@@ -31,4 +28,23 @@ body {
 .middle h2 {
     font-size: 55px;
     font-weight: normal;
+}
+
+footer {
+    width: auto;
+}
+
+.phrase:hover .author {
+    height: 19px;
+}
+
+.phrase {
+    margin-bottom: 19px;
+    padding-bottom: 5px;
+}
+
+.author {
+    overflow: hidden;
+    height: 0px;
+    transition: all ease-in .2s;
 }
