@@ -1,2 +1,2 @@
-# desafio-b7web-momentum
-Desafio da B7WEB
+# treino-web
+Repositório simples para treino para desenvolvimento WEB.
